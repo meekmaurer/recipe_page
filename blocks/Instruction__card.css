@@ -1,0 +1,23 @@
+.Instruction__card {
+  border-bottom: solid;
+  color: var(--c-Stone-150);
+  padding-bottom: 20px;
+}
+
+.Instruction__card__list-title {
+  position: relative;
+  left: -38px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  color: hsl(14, 45%, 36%);
+}
+
+.Instruction__card__list-item {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: hsl(30, 10%, 34%);
+  position: relative;
+  left: -12px;
+}

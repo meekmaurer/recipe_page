@@ -1,0 +1,39 @@
+.Ingredient__card {
+  padding-bottom: 50px;
+  border-bottom: solid;
+  color: var(--c-Stone-150);
+}
+
+.Ingredient__card__list {
+  margin: 0;
+}
+
+.Ingredient__card__list-title {
+  position: relative;
+  left: -38px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  color: hsl(14, 45%, 36%);
+}
+
+.Ingredient__card__list-item {
+  list-style-type: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: var(--c-Stone-600);
+  position: relative;
+  left: -42px;
+}
+
+.Ingredient__card__list-item::before {
+  content: "\2022";
+  color: hsl(332, 51%, 32%);
+  display: inline-block;
+  width: 35px;
+  margin: 0;
+  font-size: 25px;
+  position: relative;
+  left: -18px;
+}

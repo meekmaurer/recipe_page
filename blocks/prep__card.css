@@ -1,0 +1,36 @@
+.prep__card {
+  border-radius: 25px;
+  margin: 40px 0;
+  height: 280px;
+  display: inherit;
+}
+
+.prep__card__list {
+  padding-top: 15px;
+  margin: 40px 0 0 0;
+}
+
+.prep__card__list-item::before {
+  content: "\2022";
+  color: hsl(332, 51%, 32%);
+  display: inline-block;
+  width: 35px;
+  margin: 0;
+  font-size: 25px;
+}
+
+.prep__card__list-title {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 30px;
+  color: hsl(332, 51%, 32%);
+}
+
+.prep__card__list-item {
+  list-style-type: none;
+  font-size: 18px;
+  color: hsl(30, 10%, 34%);
+  position: relative;
+  left: 20px;
+  margin: 25px 0;
+}
